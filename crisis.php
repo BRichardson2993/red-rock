@@ -56,7 +56,8 @@
 
                         <h3>Children&rsquo;s Crisis Stabilization Unit</h3>
                         <div class="csuAddress">
-                            <p>4404 N Lincoln Blvd Oklahoma City, OK 73105</p>
+                            <p>4404 N Lincoln Blvd</p>
+                            <p>Oklahoma City, OK 73105</p>
                             <p>405&dash;425&dash;0333 or 1&dash;855&dash;330&dash;1374</p>
                             <p>Hours of Operation: 24 hours a day</p>
                         </div>

@@ -309,6 +309,10 @@ Index Page Styles
   max-width: 80%;
 }
 
+blockquote {
+  margin: 1em 0 2em 0;
+}
+
 
 /************************************************************
 About Page Styles
@@ -847,7 +851,6 @@ input[type=checkbox]:checked ~ h3 ~ p {
   max-height: 100%;
   max-width: 90%;
   padding: 1em 0 0 2em;
-
 }
 
 input[type=checkbox]:checked ~ h4 {
@@ -1604,6 +1607,10 @@ Responsive Menu Styles
 /*mobile styles*/
 
 @media only screen and (max-width:480px) {
+  body {
+    width: 310px;
+    margin: 0 auto;
+  }
   #cssmenu {
     width: 350px;
     float: none;
@@ -1618,10 +1625,21 @@ Responsive Menu Styles
   #col1 {
     display: block;
     width: 100%;
+    margin: 0 auto;
+  }
+  #rightSide {
+    display: inline;
+    width: 300px;
+    padding: 0;
   }
   #col1 figure {
-    display: inline;
+    display: inline-block;
     padding: 0;
+  }
+  #col1 figure figcaption {
+    padding: 0;
+    margin: 0;
+    font-size: .5em;
   }
   #col1 figure img {
     display: inline;
@@ -1630,14 +1648,15 @@ Responsive Menu Styles
   .crisisButton {
     display: inline;
     float: right;
+    margin-top: 1em;
   }
   #col2 {
-    width: 100%;
+    max-width: 320px;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
   }
   #col2 p {
-    width: 100%;
+    width: 300px;
   }
   #col2 ul {
     padding: 0;
@@ -1645,42 +1664,63 @@ Responsive Menu Styles
   }
   #col2 img {
     padding: 0;
-    margin: 0;
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 300px;
     float: none;
   }
-  #col3 {
-    width: 100%;
-    margin-left: 5%;
+  #col2 section {
+    width: 300px;
   }
-
-  #rightSide figure img {
-    max-width: 100px;
+  .factsList {
+    width: 300px;
   }
-  #rightSide figcaption {
-    font-size: .8em;
+  #leadership {
+    width: 300px;
+    margin: 0 auto;
+  }
+  #leadership img {
+    max-width: 300px;
+  }
+  #leadership figure {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #leadership figure figcaption {
+    position: relative;
+    width: 300px;
+    margin: 0 0 8% 0;
+    left: auto;
   }
   button {
     width: 95px;
     font-size: .6em;
+    margin-right: .8em;
   }
   .sideButton {
-    margin-top: 80px;
+    margin-top: 1em;
   }
   .sideButton button {
     width: 90px;
     height: 50px;
+    box-shadow: none;
   }
   #warning {
-    width: 75px;
+    padding: 0;
   }
   .emergency {
-    font-size: .5em;
+    width: 200px;
+    font-size: .8em;
     border-radius: 5px;
-    padding: 10%;
+    margin: 2% auto;
+    padding: 3%;
+    box-shadow: none;
   }
-  .emergency a[href^="tel"]:link {
-    float: none;
+  #resourcesSection ul li {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
   }
   .emp#sidebar {
     width: 100px;
@@ -1689,11 +1729,11 @@ Responsive Menu Styles
     width: 200px;
     height: 200px;
   }
-  .back-to-top {
-    right: 70%;
-    margin-bottom: 10%;
-    padding: 2%;
-    width: 75px;
+  .soc {
+    width: 300px;
+  }
+  .plist {
+    line-height: 1.5em;
   }
   .timeline h2 a {
     font-size: .75em;
@@ -1705,48 +1745,97 @@ Responsive Menu Styles
   .prBuilding {
     max-width: 100px;
   }
-
+  .serviceLinks {
+    width: 300px;
+    margin: 0 auto;
+  }
   .serviceLinks a {
-    width: 60%;
+    width: 80%;
     padding: 4%;
+    text-align: center;
+  }
+  .square li {
+    line-height: 1.7em;
+    padding: 2% 10%;
+  }
+  .modalDialog div {
+    width: 250px;
+    overflow: visible;
+  }
+  .modalDialog {
+    font-size: .8em;
+  }
+  .back-to-top {
+    right: 70%;
+    margin-bottom: 10%;
+    padding: 2%;
+    width: 75px;
+    left: 220px;
+  }
+  .incentives {
+    width: 275px;
+    margin-left: 2em;
+  }
+  .emp {
+    float: right;
+    margin-right: .5em;
+     width: 100px;
   }
 
+  #col3 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #col3 figure {
+    display: inline-block;
+    padding: 0;
+  }
+  #col3 figure figcaption {
+    padding: 0;
+    margin: 0;
+    font-size: .5em;
+  }
+  #col3 figure img {
+    display: inline;
+    padding: 0;
+  }
+  footer {
+    margin-top: 2em;
+  }
   /* collapsible areas */
-.collapse h3 {
-    font-size: .85em;
-    width: 340px;
-    height: 35px;
+  .collapse h3 {
+    font-size: .8em;
+    width: 300px;
+    padding: .5em 0;
   }
-
-input[type=checkbox]:checked ~ h3 ~ p {
- max-width: 350px;
-}
-
-input[type=checkbox]:checked ~ h4 {
-  color: #9a3820;
-  font-size: 1.5em;
-  margin-top: 1em;
-}
-
-input[type=checkbox]:checked ~ h4,
-input[type=checkbox]:checked ~ h5 {
-  max-height: 100%;
-  max-width: 90%;
-}
-
-input[type=checkbox]:checked ~ h3 ~ p:last-child {
-  margin-bottom: 3em;
-}
-
-input[type=checkbox]:checked ~ h3 ~ .plist {
-  padding-left: 5em;
-}
-
-input[type=checkbox]:checked ~ h3 ~ .plist2 {
-  padding-left: 8em;
-  font-size: .9em;
-  line-height: .85em;
-  font-style: italic;
-}
-
+  input[type=checkbox]:checked ~ h3 ~ p {
+    font-size: 1em;
+    width: 300px;
+    padding: 1em;
+  }
+  input[type=checkbox]:checked ~ h4 {
+    color: #9a3820;
+    font-size: 1em;
+    margin-top: 1em;
+  }
+  input[type=checkbox]:checked ~ h4,
+  input[type=checkbox]:checked ~ h5 {
+    font-size: 1em;
+    max-height: 100%;
+    max-width: 300px;
+  }
+  input[type=checkbox]:checked ~ h3 ~ p:last-child {
+    margin-bottom: 3em;
+  }
+  input[type=checkbox]:checked ~ h3 ~ .plist {
+    padding-left: 1em;
+    line-height: 1.2em;
+  }
+  input[type=checkbox]:checked ~ h3 ~ .plist2 {
+    padding-left: 2em;
+    font-size: .9em;
+    line-height: 1.2em;
+    font-style: italic;
+  }
 }

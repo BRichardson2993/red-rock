@@ -245,7 +245,7 @@
                             <p class="features">Residential substance abuse treatment for women with dependent children </p>
 
                         </section>
-
+                      <div class="soc">
                         <p>Systems of Care offers home&dash;based case management and advocacy services that focus on the wellness of the whole person. Our ultimate goal in Systems of Care is to promote mental and physical health. We focus on the youth and family&rsquo;s strengths, their unique and individualized needs while respecting their voice and choice.</p>
 
                         <ul>
@@ -262,7 +262,7 @@
                             <li>Shawnee serving Pottawatomie County</li>
                             <li>Chandler serving Lincoln County</li>
                         </ul>
-
+                      </div>
                     </article>
             </section>
 

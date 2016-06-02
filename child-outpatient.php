@@ -8,9 +8,9 @@
             <section id="col2">
                 <?php include('includes/resp-menu.php');?>
 
-                    <img src="images/child-outpatient.png" alt="red rock behavioral health services" class="imageRight">
+                    <img src="images/teen.jpg" alt="red rock behavioral health services" class="imageRight">
                     <h1>Child Outpatient Services</h1>
-                <blockquote>&ldquo;Our greatest natural resource is the minds of our children&rdquo; <cite>&mdash;Walt Disney</cite></blockquote>
+                <blockquote>&ldquo;Our greatest natural resource is the minds of our children.&rdquo; <cite>&mdash;Walt Disney</cite></blockquote>
                     <p>The well&dash;being of a child&rsquo;s mind plays an integral part in their ability to succeed at school, home, work, and society. Children of Oklahoma are the future and how they think, feel and act will shape them as future leaders.</p>
                     <p>Red Rock &lpar;Planet Rock&rpar; utilizes evidenced&dash;based treatments that demonstrate exceptional outcomes. Our goal is that every child receiving services will successfully discharge upon resolving their issue&lpar;s&rpar; and live productive lives. Red Rock equips children with the ability to navigate their future using newly developed coping skills and having the knowledge to be their own therapist to overcome future challenges.</p>
                     <p>Oklahoma is ranked among one of the highest states of children who experience mental health and substance use disorders. Furthermore, Oklahoma has consistently demonstrated high &ldquo;Adverse Childhood Experiences&rdquo; &lpar;ACE&rpar; which are potentially traumatic events that can have negative and lasting effects on the child’s well&dash;being. Adverse Childhood experiences include economic hardship, divorce, separation, violence, assault, neighborhood violence, drugs&#47;alcohol, natural disasters, etc.</p>
