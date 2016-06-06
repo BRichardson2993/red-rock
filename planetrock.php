@@ -1,5 +1,5 @@
 <?php include('includes/pr-header.php');?>
-    <main role="main">
+    <main>
         <div id="wrapper">
             <!--<div id="slide-area">
                 <div id="owl-demo" class="owl-carousel owl-theme"> -->

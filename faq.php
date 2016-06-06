@@ -1,8 +1,7 @@
  <?php include('includes/header.php');?>
-  <main role="main">
+  <main>
     <div id="wrapper">
       <section id="col1">
-        <?php include('includes/sidebar.php');?>
           <?php include('includes/right-sidebar.php');?>
       </section>
 
@@ -15,7 +14,7 @@
 
             <section class="collapse">
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle1">
 
@@ -39,7 +38,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle2">
 
@@ -50,7 +49,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle3">
 
@@ -63,7 +62,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle4">
 
@@ -81,7 +80,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle5">
 
@@ -98,7 +97,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle6">
 
@@ -121,7 +120,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle7">
 
@@ -143,7 +142,7 @@
                 <p>When you meet with a Clinical staff person there is additional information we need to collect. They will ask you to complete some screening forms to learn about events that may have occurred in your lifetime that may be contributing to you problems today. Screening documents include: depression screening, trauma screening, gambling screening, and substance use screening. The Clinical staff will inform you of our privacy practices, ask if you would like to designate a Treatment Advocate, which is someone that you want to be part of your treatment, and act in your behalf if you are unable in a crisis situation. They will also ask for a contact name and phone number for someone to contact in case of emergency and collect any co&dash;pay due based on your insurance coverage. You will fill out a Request for Services to tell us why you are here today. Sometimes gathering this information takes more than one session. We will move at your own pace and if it takes longer than one session, that is OK. </p>
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle8">
 
@@ -153,7 +152,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle9">
 
@@ -163,7 +162,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle10">
 
@@ -176,7 +175,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle11">
 
@@ -197,7 +196,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle12">
 
@@ -207,7 +206,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle13">
 
@@ -222,7 +221,7 @@
 
               </div>
 
-              <div id="expand">
+              <div class="expand">
 
                 <input type="checkbox" id="toggle14">
 

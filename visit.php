@@ -1,5 +1,5 @@
 <?php include('includes/header.php');?>
-	<main role="main">
+	<main>
 
 		<div id="wrapper">
 
@@ -12,7 +12,7 @@
 				<?php include('includes/resp-menu.php');?>
 
 					<h1>Your First Visit</h1><article class="visit">
-                    <img src="images/your-first-visit.png"t="red rock behavioral health services image" class="visitImage">
+                    <img src="images/your-first-visit.png" alt="red rock behavioral health services image" class="visitImage">
 					<h2>Documents to Bring with You</h2>
 					<h3>For adult:</h3>
 					<p>On your first visit, you will fill out some brief paperwork and then meet with a clinician to discuss your reason for seeking services. Your clinician will explain our services and what is available to you &lpar;i.e., individual therapy, case management, med clinic services, etc&rpar;. They will ask questions about your current life stressors and your history. Red Rock accepts SoonerCare &lpar;Medicaid&rpar;, Medicare and some private insurance. If you do not have insurance, you might be eligible for your care to be paid for through the Oklahoma Department of Mental Health and Substance Abuse Services &lpar;ODMHSAS&rpar;. It is very important to bring the following documents with you to decrease wait time.</p>

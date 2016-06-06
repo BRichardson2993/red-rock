@@ -1,5 +1,5 @@
 <?php include('includes/header.php');?>
-    <main role="main">
+    <main>
         <div id="wrapper">
             <section id="col1">
                 <?php include('includes/right-sidebar.php');?>

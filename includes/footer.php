@@ -30,7 +30,7 @@ $('#cssmenu > ul > li > a').click(function() {
 
 <img src="images/CARF.png" alt="CARF Accredited logo" class="carf">
 
-<footer role="contentinfo">
+<footer>
 <p class="statement">Red Rock is funded in part by the Oklahoma Department of Mental Health and Substance Abuse Services.</p>
 <div class="social">
 	<a href="https://www.facebook.com/Red-Rock-Behavioral-Health-Services-115349498488230/?fref=ts" target="_blank"><img src="images/facebook.png" alt="red rock bhs facebook page" class="social"></a>

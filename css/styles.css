@@ -77,12 +77,12 @@ body {
 
 nav {
   background: #9a3820;
+  padding: .5em;
 }
 
 nav ul {
-  margin-bottom: 0;
-  padding: .5em 0 .5em 0;
-  text-align: center;
+  margin: 0 auto;
+  display: inline;
 }
 
 nav li {
@@ -95,7 +95,7 @@ nav a {
   text-decoration: none;
   font-size: .9em;
   color: white;
-  padding-right: 1.2em;
+  padding-right: 1.5em;
   font-weight: bold;
 }
 
@@ -103,7 +103,9 @@ nav a:hover {
   color: #fdd900;
 }
 
-li.employee {
+.employee {
+  padding: 0;
+  display: inline;
   font-family: serif;
   font-size: .75em;
   font-style: italic;
@@ -124,10 +126,9 @@ li.employee {
   font-family: arial, sans-serif;
   font-size: .75em;
   font-style: italic;
-  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  text-align: left;
-  line-height: 2em;
+  text-align: right;
+  line-height: 4em;
   padding: 5%;
 }
 
@@ -205,7 +206,8 @@ a:hover {
 }
 
 .crisisButton {
-  max-height: 100px;
+  max-height: 75px;
+  max-width: 150px;
   border-radius: 10px;
   padding: 1em;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fceabb+0,fccd4d+50,f8b500+51,fbdf93+100;Orange+3D+%235 */
@@ -217,16 +219,17 @@ a:hover {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, rgba(252, 234, 187, 1) 0%, rgba(252, 205, 77, 1) 50%, rgba(248, 181, 0, 1) 51%, rgba(251, 223, 147, 1) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
-  /* IE6-9 */
   -webkit-box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 20px -5px rgba(0, 0, 0, 0.75);
-  line-height: 1em;
 }
 
 .crisisButton .large {
   font-size: 1.5em;
+}
+
+.crisisButton p {
+  margin: 0;
 }
 
 .crisisButton a {
@@ -340,9 +343,12 @@ About Page Styles
   margin-top: 45%;
 }
 
-.sideButton button {
-  height: 75px;
-  width: 150px;
+.button {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.sideButton .button {
   border-radius: 10px;
   padding: 1em;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,3daeae+100 */
@@ -366,7 +372,7 @@ About Page Styles
 }
 
 .sideButton a {
-  font-size: 1.15em;
+  font-size: 1em;
   color: #9a3820;
   letter-spacing: .1em;
   text-decoration: none;
@@ -783,7 +789,7 @@ Yellow      #fdd900 rgb(253,217,0)
 White       #fff    rgb(255,255,255)
 Black       #000    rgb(0,0,0) */
 
-#expand {
+.expand {
   position: relative;
 }
 
@@ -1465,6 +1471,22 @@ Responsive Menu Styles
 }
 
 
+/***********************************************************
+Media Queries
+
+Palette:
+
+Burgundy    #9a3820 rgb(154,56,32)
+Olive       #91a06C rgb(145,160,108)
+Turquoise   #3daeae rgb(61,174,174)
+Orange      #f9a11b rgb(249,161,27)
+Yellow      #fdd900 rgb(253,217,0)
+White       #fff    rgb(255,255,255)
+Black       #000    rgb(0,0,0)
+
+************************************************************/
+
+
 /*tablet styles*/
 
 @media only screen and (max-width:1125px) {
@@ -1585,6 +1607,10 @@ Responsive Menu Styles
     background-image: none;
     max-width: 95%;
   }
+  #cssmenu {
+    width: 100%;
+    margin: 0 auto;
+  }
   #col2 {
     max-width: 65%;
   }
@@ -1599,7 +1625,11 @@ Responsive Menu Styles
     font-size: .5em;
   }
   .logo {
-    max-width: 40%
+    max-width: 40%;
+  }
+  #leadership figure figcaption {
+    width: 200px;
+    left: 60%;
   }
 }
 
@@ -1614,7 +1644,7 @@ Responsive Menu Styles
   #cssmenu {
     width: 350px;
     float: none;
-    margin: 0 auto;
+    margin: 1em auto;
   }
   #rrlogo {
     max-width: 180px;
@@ -1632,23 +1662,27 @@ Responsive Menu Styles
     width: 300px;
     padding: 0;
   }
-  #col1 figure {
+  #col1 figure,
+  #col3 figure {
     display: inline-block;
     padding: 0;
   }
-  #col1 figure figcaption {
+  #col1 figure figcaption,
+  #col3 figure figcaption{
     padding: 0;
     margin: 0;
-    font-size: .5em;
+    font-size: .65em;
   }
-  #col1 figure img {
+  #col1 figure img,
+  #col3 figure img{
+    width: 80%;
     display: inline;
     padding: 0;
   }
   .crisisButton {
     display: inline;
     float: right;
-    margin-top: 1em;
+    box-shadow: none;
   }
   #col2 {
     max-width: 320px;
@@ -1669,17 +1703,18 @@ Responsive Menu Styles
     float: none;
   }
   #col2 section {
-    width: 300px;
+    width: 320px;
   }
   .factsList {
     width: 300px;
   }
   #leadership {
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
+    overflow: hidden;
   }
   #leadership img {
-    max-width: 300px;
+    width: 320px;
   }
   #leadership figure {
     display: block;
@@ -1688,21 +1723,20 @@ Responsive Menu Styles
   }
   #leadership figure figcaption {
     position: relative;
-    width: 300px;
+    width: 295px;
     margin: 0 0 8% 0;
+    padding: 1%;
     left: auto;
-  }
-  button {
-    width: 95px;
-    font-size: .6em;
-    margin-right: .8em;
   }
   .sideButton {
     margin-top: 1em;
   }
-  .sideButton button {
-    width: 90px;
-    height: 50px;
+  .button {
+    font-size: .6em;
+    width: 75px;
+    display: inline-block;
+  }
+  .sideButton .button {
     box-shadow: none;
   }
   #warning {
@@ -1779,27 +1813,14 @@ Responsive Menu Styles
   .emp {
     float: right;
     margin-right: .5em;
-     width: 100px;
+    width: 100px;
   }
-
   #col3 {
     display: block;
     width: 100%;
     margin: 0 auto;
   }
-  #col3 figure {
-    display: inline-block;
-    padding: 0;
-  }
-  #col3 figure figcaption {
-    padding: 0;
-    margin: 0;
-    font-size: .5em;
-  }
-  #col3 figure img {
-    display: inline;
-    padding: 0;
-  }
+
   footer {
     margin-top: 2em;
   }

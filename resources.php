@@ -1,5 +1,5 @@
 <?php include('includes/header.php');?>
-    <main role="main">
+    <main>
 
         <div id="wrapper">
 
@@ -85,7 +85,7 @@
 
                     <h2>Veteran Assistance</h2>
                     <ul>
-                        <li><a href="http://ok.gov/odva/" target="_blank;">Oklahoma Department of Veterans Affairs</a></li>
+                        <li><a href="http://ok.gov/odva/" target="_blank">Oklahoma Department of Veterans Affairs</a></li>
                         <li><a href="http://warriorsforfreedom.org" target="_blank">Warriors for Freedom Foundation</a>  <a href="tel:4052869920">405&dash;286&dash;9920</a> </li>
                     </ul>
 

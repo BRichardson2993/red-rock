@@ -1,7 +1,7 @@
 <?php include('includes/header.php');?>
 
 
-    <main role="main">
+    <main>
 
 
         <div id="wrapper" class="outpatient">

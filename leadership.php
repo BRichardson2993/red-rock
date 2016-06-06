@@ -1,5 +1,5 @@
 <?php include('includes/header.php');?>
-    <main role="main">
+    <main>
         <div id="wrapper">
             <section id="col1">
                 <?php include('includes/right-sidebar.php');?>
@@ -26,7 +26,7 @@
                                 <br><span class="title">Chief Operation Officer Specialized Services</span></figcaption>
                         </figure>
                         <figure>
-                            <img src="images/wana-ellison-SM.jpg" alt="red rock wana ellison image">
+                            <img src="images/wana-ellison-SM.png" alt="red rock wana ellison image">
                             <figcaption>Dr. Wana R. Ellison, Psy.D, L.P.C., LADC
                                 <br><span class="title">Chief Operation Officer Outpatient Services</span></figcaption>
                         </figure>
