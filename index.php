@@ -4,7 +4,6 @@
 
     <div id="wrapper">
 
-
       <!-- Start WOWSlider.com BODY section -->
       <div id="wowslider-container1">
         <div class="ws_images">
@@ -29,11 +28,11 @@
           <article class="intro">
             <h1>Red Rock Behavioral Health Services</h1>
 
+            <h2>Welcome to Red Rock</h2>
             <section class="columns">
-              <h2>Welcome to Red Rock</h2>
 
-              <p>Red Rock Behavioral Health Services is a private not&dash;for&dash;profit community mental health center that was founded in 1974, and is based in Oklahoma City. Red Rock provides mental health services, and referrals to physical health services, to indigent and insured Oklahomans, and is one of the largest community mental health centers in Oklahoma.
-                <br> Red Rock has offices in 13 Oklahoma cities and provides services from 27 locations. Across the Company, Red Rock employs nearly 500 full and part&dash;time staff working in Oklahoma City, Chandler, Yukon, El Reno, Chickasha, Watonga, Kingfisher Clinton, Elk City, Hobart, and Altus.</p>
+              <p>Red Rock Behavioral Health Services is a private not&dash;for&dash;profit community mental health center that was founded in 1974, and is based in Oklahoma City. Red Rock provides mental health services, and referrals to physical health services, to indigent and insured Oklahomans, and is one of the largest community mental health centers in Oklahoma.</p>
+              <p>Red Rock has offices in 13 Oklahoma cities and provides services from 27 locations. Across the Company, Red Rock employs nearly 500 full and part&dash;time staff working in Oklahoma City, Chandler, Yukon, El Reno, Chickasha, Watonga, Kingfisher Clinton, Elk City, Hobart, and Altus.</p>
             </section>
             <section class="mission">
               <h2>Mission Statement</h2>
