@@ -132,40 +132,30 @@
                             <p class="features">Outpatient therapy services, case management services, screening intake and referral services, psychiatric rehabilitation services, services to homeless individuals, peer support services, emergency services</p>
 
                             <p class="name" id="parkView">Housing &mdash; Park View Place</p>
-                            <p class="name"></p>
-                            <p class="street">2619 N. Harvey</p>
                             <p class="cityState">Oklahoma City, OK 73103</p>
                             <p class="phone">&lpar;405&rpar; 525&dash;3959</p>
                             <p class="director">Director of Housing: LeAnn Tyson</p>
                             <p class="features">Community living program, case management, services to homeless individuals, psychiatric rehabilitation services</p>
 
                             <p class="name" id="parkSide">Housing &mdash; Park Side</p>
-                            <p class="name"></p>
-                            <p class="street">2801 N. Robinson</p>
                             <p class="cityState">Oklahoma City, OK 73103</p>
                             <p class="phone">&lpar;405&rpar; 557&dash;1633</p>
                             <p class="director">Director of Housing: LeAnn Tyson</p>
                             <p class="features">Community living program, case management, services to homeless individuals, psychiatric rehabilitation services</p>
 
                             <p class="name" id="sunset">Housing &mdash; Sunset Lodge&dash; Women Only</p>
-                            <p class="name"></p>
-                            <p class="street">1141 NW 28th</p>
                             <p class="cityState">Oklahoma City, OK 73103</p>
                             <p class="phone">&lpar;405&rpar; 557&dash;1634</p>
                             <p class="director">Director of Housing: LeAnn Tyson</p>
                             <p class="features">Community living program, case management, services to homeless individuals, psychiatric rehabilitation services</p>
 
                             <p class="name" id="western">Housing &mdash; Western Lodge &dash; Male &lpar;Veterans)</p>
-                            <p class="name"></p>
-                            <p class="street">320 NW 29th</p>
                             <p class="cityState">Oklahoma City, OK 73103</p>
                             <p class="phone">&lpar;405&rpar; 521&dash;0706</p>
                             <p class="director">Director of Housing: LeAnn Tyson</p>
                             <p class="features">Community living program, case management, services to homeless individuals, psychiatric rehabilitation services</p>
 
                             <p class="name" id="candlewood">Housing &mdash; Candlewood Lodge &dash; Family</p>
-                            <p class="name"></p>
-                            <p class="street">118 NW 32nd</p>
                             <p class="cityState">Oklahoma City, OK 73103</p>
                             <p class="phone">&lpar;405&rpar; 524&dash;4789</p>
                             <p class="director">Director of Housing: LeAnn Tyson</p>
