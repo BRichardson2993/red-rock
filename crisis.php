@@ -2,7 +2,6 @@
     <main>
         <div id="wrapper">
             <section id="col1">
-                <?php include('includes/sidebar.php');?>
                     <?php include('includes/right-sidebar.php');?>
             </section>
 
