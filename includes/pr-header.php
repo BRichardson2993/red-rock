@@ -18,7 +18,8 @@
 				<!--<img src="images/leaf.png" alt="leaf icon" class="leaf"> -->
 
 				<p class="lgPhone"><a href="tel:4054247711">405&dash;267&dash;3246</a></p>
-				<p><a href="tel:18559998055">or Toll Free 1&dash;855&dash;999&dash;8055</a></p>
+              <p>or Toll Free</p>
+                <p class="smPhone"><a href="tel:18559998055">1&dash;855&dash;999&dash;8055</a></p>
 			</div>
 			<nav id="PRnav">
 			<ul>
