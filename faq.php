@@ -202,7 +202,7 @@
 
                 <h3><label for="toggle12">What can you expect from Red Rock?</label></h3>
 
-                <p>You can expect to receive exceptional services that are both unique to your needs and culturally sensitive. There is a not a one&dash;size&dash;fits all mental health treatment or substance use treatment. First, you are assessed to determine if our services would be beneficial. Next, you will go through a process that includes screening, needs, and intake. A treatment plan are developed with your input. The treatment plan becomes a map that will guide you and your practitioner towards meeting objectives and ultimately your long&dash;term goal. </p>
+                <p>You can expect to receive exceptional services that are both unique to your needs and culturally sensitive. There is not a one&dash;size&dash;fits all mental health treatment or substance use treatment. First, you are assessed to determine if our services would be beneficial. Next, you will go through a process that includes screening, needs, and intake. A treatment plan is developed with your input. The treatment plan becomes a map that will guide you and your practitioner towards meeting objectives and ultimately your long&dash;term goal. </p>
 
               </div>
 
