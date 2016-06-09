@@ -13,7 +13,7 @@
                         <ul class="factsList">
                             <li>Red Rock Behavioral Health Services was founded in 1974 as a private, not&dash;for&dash;profit comprehensive behavioral health service provider.</li>
 
-                            <li>Red Rock operates 14 offices and service delivery locations as well as 7 residential facilities and 3 adult/children crisis intervention centers serving a total of 25 counties in Oklahoma.</li>
+                            <li>Red Rock operates 13 offices and service delivery locations as well as 7 residential facilities and 3 adult/children crisis intervention centers serving a total of 27 counties in Oklahoma.</li>
 
                             <li>Red Rock employs nearly 500 professionals including Psychiatrists, Licensed Clinical Social Workers, Licensed Professional Counselors, Licensed Marriage and Family Therapists, Registered Nurses, Case Managers, administrative and supporting staff.
                             </li>
