@@ -23,6 +23,7 @@
 			<nav id="PRnav">
 			<ul>
 				<li>Red Rock Behavioral Health Services &mdash; Children&rsquo;s Services.</li>
+				<li class="homeLink"><a href="http://www.red-rock.com" target="_self">Back to Red Rock Home Page</a></li>
 			</ul>
 		</nav>
 		</header>
