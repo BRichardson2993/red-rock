@@ -20,7 +20,7 @@
 
 							<h3>Administrative Services:</h3>
 							<p>Julie Yauk&mdash; Executive Administrative Assistant</p>
-							<a href="mailto:juliey@red-rock.com">juliey@Red-Rock.com</a>
+							<a href="mailto:juliey@red-rock.com">juliey@red-rock.com</a>
 
 							<h3>OKC/Main Location</h3>
 							<p>4400 North Lincoln Blvd.</p>
