@@ -49,7 +49,6 @@
                     <dd class="cityState">Clinton, OK 73099</dd>
                     <dd class="phone">&lpar;580&rpar; 323&dash;6021</dd>
                   </dl>
-                  <p class="modalDirector">Ashley Cline, Director of Prevention Programs&mdash; &lpar;405&rpar; 422&dash;8871</p>
 
                 </div>
               </div>
