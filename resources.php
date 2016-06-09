@@ -5,15 +5,7 @@
 
             <section id="col1">
 
-               <div id="warning">
-
-               <a href="tel:911"><p class="emergency">FOR EMERGENCY SERVICE DIAL 911</p></a>
-
-                <a href="tel:18002738255"><p class="emergency">National Suicide Prevention Lifeline:<br>1&dash;800&dash;273&dash;8255</p></a>
-
-                </div>
-
-                <?php include('includes/right-sidebar.php');?>
+            <?php include('includes/right-sidebar.php');?>
 
             </section>
 
@@ -25,15 +17,16 @@
 
                     <h2>Hotlines</h2>
                     <ul>
-                        <li>Child Abuse and Neglect Hotline<br> <a href="tel:8005223511">  1&dash;800&dash;522&dash;3511</a></li>
-                        <li>211  A free information line with resources in the OKC metro area</li>
+                        <li>National Suicide Prevention Lifeline <a href="tel:8002738255">1&dash;800&dash;273&dash;8255</a></li>
+                        <li>Child Abuse and Neglect Hotline <a href="tel:8005223511">  1&dash;800&dash;522&dash;3511</a></li>
+                        <li>Free information line with resources in the OKC metro area <a href="tel:211">211</a></li>
                         <li>OCARTA&rsquo;s Friend Line  <a href="tel:4054364083">405&dash;436&dash;4083</a></li>
                         <li>OCARTA&rsquo;s 24&dash;hr Crisis Line  <a href="tel:4058124580">405&dash;812&dash;4580</a></li>
                         <li><a href="http://betobaccofree.hhs.gov/" target="_blank">Oklahoma Tobacco Helpline</a><a href="tel:18007848669">1&dash;800&dash;QUIT NOW</a></li>
                         <li><a href="http://www.stopbullying.gov/index.html" target="_blank">Stop Bullying</a></li>
                     </ul>
 
-                    <h2>Drop-in Centers</h2>
+                    <h2>Drop&dash;in Centers</h2>
                     <ul>
                         <li>OCARTA  <a href="tel:4058487555">405&dash;848&dash;7555</a></li>
                         <li>Lottie House  <a href="tel:4056003074">405&dash;600&dash;3074</a></li>
