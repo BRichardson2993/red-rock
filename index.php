@@ -37,7 +37,7 @@
             <section class="mission">
               <h2>Mission Statement</h2>
 
-              <p>To positively change the lives of youth and adults by passionately serving their comprehensive behavioral health needs in an effort to strengthen families and support the community.</p>
+              <p>To positively change the lives of youth and adults by providing and coordinating their behavioral and physical health in an effort to strengthen families and support the community.</p>
             </section>
 
           </article>
