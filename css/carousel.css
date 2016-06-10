@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -13,3 +14,20 @@
   right: -45px;
   top: 110px;
 }
+=======
+
+
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  top: 110px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 110px;
+}
+>>>>>>> red-rock-BHS/master
