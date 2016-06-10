@@ -1,8 +1,16 @@
 # Exclude the .htaccess file
 .htaccess
+
+# Exclude the sound files
+*.mp3
+
 # Exclude any PSD/AI source
 *.psd
 *.ai
+*.gif
+*.jpg
+*.png
+*.pdf
 # Exclude the build products
 build/*
 *.[oa]
@@ -16,3 +24,5 @@ build/*
 *.log
 # Exclude Fonts
 _fonts/
+# Exclude Images
+images/
