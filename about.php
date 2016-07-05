@@ -188,7 +188,7 @@
               <p>OMHC becomes an Advisory Board to the University of Oklahoma Medical School&rsquo;s Department of Child Psychiatry and agrees to provide them a free building. In return, the Department of Psychiatry agrees to provide some free mental health service to underserved children and families in Northeast Oklahoma City who do not qualify as “training cases”.</p>
 
               <h2><a href="images/annual2016.pdf" target="_self">2016 Annual Report</a></h2>
-              <h2><a href="strategicplan.php" target="_self">2014 &dash; 2016 Strategic Plan</a></h2>
+              <h2><a href="strategicplan.php" target="_self">2017 &dash; 2019 Strategic Plan</a></h2>
               <h2><a href="privacy.php" target="_self">Privacy Policy</a></h2>
             </section>
           </article>

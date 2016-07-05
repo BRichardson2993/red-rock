@@ -474,8 +474,9 @@ Strategic Plan and Privacy Policy Styles
 ************************************************************/
 
 .strategic li {
-  max-width: 75%;
+  max-width: 90%;
   padding: .5em 0 .5em 0;
+  line-height: 1.5em;
 }
 
 .privacy p {
