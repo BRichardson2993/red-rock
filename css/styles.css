@@ -313,6 +313,10 @@ Index Page Styles
   column-gap: 25px;
 }
 
+.columns p {
+  margin-top: 0;
+}
+
 .mission {
   max-width: 80%;
 }
@@ -909,7 +913,8 @@ Modal Styles
 
 .modalDialog {
   position: fixed;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
   top: 0;
   right: 0;
   bottom: 0;
@@ -923,9 +928,13 @@ Modal Styles
   pointer-events: none;
 }
 
-.modalDialog p {
+.ceoMessage p {
   display: block;
-  line-height: .5em;
+  line-height: 1.25em;
+}
+
+.modalDialog .ceoMessage {
+  width: 70%;
 }
 
 .modalDialog .name {
@@ -1571,7 +1580,12 @@ Black       #000    rgb(0,0,0)
     line-height: 1em;
   }
   .modalDialog {
-    overflow: visible;
+    overflow: scroll;
+  }
+
+  .modalDialog .ceoMessage p {
+    line-height: 1.25em;
+
   }
 }
 
@@ -1777,6 +1791,12 @@ Black       #000    rgb(0,0,0)
   }
   .modalDialog {
     font-size: .8em;
+  }
+  .modalDialog .ceoMessage {
+    width: 70%;
+  }
+  .modalDialog .ceoMessage p {
+    line-height: 1.25em;
   }
   .back-to-top {
     right: 70%;
